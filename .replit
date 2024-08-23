@@ -1,4 +1,8 @@
 modules = ["web"]
+run = "Desafios/Teste/index.html"
 
 [nix]
 channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Desafios/Teste/index.html"]

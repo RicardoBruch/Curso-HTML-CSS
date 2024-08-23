@@ -12,16 +12,17 @@
   --cor5: #063d1e;
   --fonte0: Arial, Helvetica, sans-serif;
 }
+nav {
+  display: flex;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+}
 body {
   font-family: var(--fonte0);
   color: var(--cor0);
   background-color: var(--cor1);
-}
-header {
-  width: 100vw;
-}
-nav {
-  
 }
 main {
   margin: auto;
